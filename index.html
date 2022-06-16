@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <title>Home</title>
+    <!--stylesheet-->
     <style>
         *{
             padding: 0;
@@ -30,32 +31,40 @@
         
        .bg-img {
         position: relative;
-        height: 500px;
+        height: 600px;
         width: 1000;
 
        }
        .marketing {
-        position: relative;
-        height: 200px;
-        width: 300px;
-       }
-       .m-c {
-        text-align: center;
-        justify-content: center;
-        font-size: 15px;
-     
+       height: 200px;
+       width: 300px;
        
+        
        }
-    .devices {
-        position: relative;
-        height: 100px;
-        width: 200px;
-        text-align: left;
-        justify-content: center;
-        display: block;
-        margin: 10px;
+       
+
+
         
 
+        
+        
+     
+       
+       
+    .devices {
+       display: flex;
+       justify-content: space-around;
+       height: 80px;
+       width: 90px;
+    
+        
+
+    }
+    .responsive {
+        position: relative;
+        display: flex;
+        padding: 5px;
+        font-size: 15px;
     }
     </style>
 </head>
@@ -69,7 +78,7 @@
             <li><a class="nav-items" href="#">Blog</a></li>
             <li><a class="nav-items" href="#">Customer Reviews</a></li>
             <li><a class="nav-items" href="#">Product</a></li>
-            <li><a class="nav-items" href="#">contact</a></li>
+            <li><a class="nav-items" href="#">Contact</a></li>
         </ul>
             
         </nav>
@@ -89,8 +98,15 @@
     <div class="container-fluid">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
             <h1 class="h1">Feautures of MPRLP</h1>
-           <img src="img/marketing.jpg" class="marketing img img-thumbnail">
-           <p class="m-c">marketing concepts</p>
+
+           <img src="img/marketing.jpg" class="marketing img img-responsive float-start">
+           <p class="m-c">Marketing concepts</p>
+
+           <img src="img/device.jpeg" class=" devices img img-responsive float-end">
+         
+
+          
+
            
 
             
