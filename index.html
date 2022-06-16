@@ -12,6 +12,22 @@
             padding: 0;
             margin: 0;
         }
+        .logo {
+            padding: 3px;
+            font-size: 24px ;
+        }
+        
+
+        
+        .nav-items{
+            text-align: center;
+            text-decoration: none;
+            list-style-type: none;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        
        .bg-img {
         position: relative;
         height: 500px;
@@ -22,61 +38,67 @@
         position: relative;
         height: 200px;
         width: 300px;
-        margin: 10px;
        }
        .m-c {
-        position: relative;
-        font-size: 35px;
-        padding: 3px;
-       }
-       .devices {
-        position: relative;
         text-align: center;
-        justify-content:right;
-        height: 200px;
-        width: 200px;
-        display: flex;
+        justify-content: center;
+        font-size: 15px;
+     
+       
        }
+    .devices {
+        position: relative;
+        height: 100px;
+        width: 200px;
+        text-align: left;
+        justify-content: center;
+        display: block;
+        margin: 10px;
         
+
+    }
     </style>
 </head>
 <body>
-    <div class="row">
-        <div class="col-sm-3">
-            <h1 class="header">Meet your multi purporse responsive landing page</h1>
-            
-        </div>
-        <div class="row">
-              <!--Menu-->
-    <div class="col-sm-4">
+    <!--Menu and header-->
+    <div class="container-fluid">
         <nav class=" menu nav navbar">
+        <ul class="nav">
             <a class="logo nav navbar-brand">MPRLP</a>
-            <a class="nav-items" href="index.html">Home</a>
-            <a class="nav-items" href="#">blog</a>
-            <a class="nav-items" href="#">Customer reviews</a>
-            <a class="nav-items" href="#">product</a>
-            <a class="nav-items" href="#">Contact</a>
+            <li ><a class="nav-items" href="index.html" >Home</a></li>
+            <li><a class="nav-items" href="#">Blog</a></li>
+            <li><a class="nav-items" href="#">Customer Reviews</a></li>
+            <li><a class="nav-items" href="#">Product</a></li>
+            <li><a class="nav-items" href="#">contact</a></li>
+        </ul>
             
         </nav>
-    </div>
-
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h1 class="header">Meet your multi purporse responsive landing page</h1>
+            
+           
         </div>
-
     </div>
-    <div class="row">
-        <div class="col-sm-5">
+    <!--Background img-->
+    <div class="container fluid">
+        
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <img src="img/bg-img.jpeg" class=" bg-img img img-responsive">
         </div>
     </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <h1 class="header2">Feauters of MPRLP</h1>
-            <img src="img/marketing.jpg" class=" marketing img img-responsive" >
-            <p class="m-c">Marketing concepts</p>
-            <img src="img/device.jpeg" class=" devices img img-thumbnail">
+    <div class="container-fluid">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+            <h1 class="h1">Feautures of MPRLP</h1>
+           <img src="img/marketing.jpg" class="marketing img img-thumbnail">
+           <p class="m-c">marketing concepts</p>
+           
+
+            
 
         </div>
     </div>
+
+    
    
   
     
