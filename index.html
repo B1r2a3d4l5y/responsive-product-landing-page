@@ -13,10 +13,7 @@
             padding: 0;
             margin: 0;
         }
-        .logo {
-            padding: 3px;
-            font-size: 24px ;
-        }
+       
         
 
         
@@ -27,20 +24,30 @@
             padding: 10px;
             margin: 5px;
         }
+        .nav-items:hover {
+            cursor: pointer;
+            color: #44bacd;
+        }
 
         
        .bg-img {
         position: relative;
-        height: 600px;
+        height: 900px;
         width: 1000;
 
        }
-       .marketing {
-       height: 200px;
-       width: 300px;
+       .load {
+           size: 20px;
+       }
+     
+       
        
         
-       }
+    
+       
+      
+       
+      
        
 
 
@@ -51,21 +58,13 @@
      
        
        
-    .devices {
-       display: flex;
-       justify-content: space-around;
-       height: 80px;
-       width: 90px;
+    
     
         
+    
 
-    }
-    .responsive {
-        position: relative;
-        display: flex;
-        padding: 5px;
-        font-size: 15px;
-    }
+    
+   
     </style>
 </head>
 <body>
@@ -76,7 +75,9 @@
             <a class="logo nav navbar-brand">MPRLP</a>
             <li ><a class="nav-items" href="index.html" >Home</a></li>
             <li><a class="nav-items" href="#">Blog</a></li>
-            <li><a class="nav-items" href="#">Customer Reviews</a></li>
+            <li><a class="nav-items" href="#">Info</a></li>
+            <li><a class="nav-items" href="customer reviews.html">Customer Reviews</a></li>
+            
             <li><a class="nav-items" href="#">Product</a></li>
             <li><a class="nav-items" href="#">Contact</a></li>
         </ul>
@@ -95,14 +96,14 @@
             <img src="img/bg-img.jpeg" class=" bg-img img img-responsive">
         </div>
     </div>
+    <hr>
     <div class="container-fluid">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
-            <h1 class="h1">Feautures of MPRLP</h1>
-
-           <img src="img/marketing.jpg" class="marketing img img-responsive float-start">
-           <p class="m-c">Marketing concepts</p>
-
-           <img src="img/device.jpeg" class=" devices img img-responsive float-end">
+            <h1 >Feautures of MPRLP</h1>
+           <a type="button"  href="feautures.html"class=" load btn btn-info" role="button" style="size:24px;">Load More</a>
+        
+           
+          
          
 
           
