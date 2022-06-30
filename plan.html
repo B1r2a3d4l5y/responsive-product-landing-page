@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,56 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     
     <title>Plan Page</title>
+    <style>
+        ::before::after{
+            padding: 10px;
+            margin: 10px;
+        }
+      
+        .b-plan {
+            
+            border-radius: 10px;
+            list-style: none;
+            text-align: center;
+            justify-content: center;
+        
+        
+            
+
+
+        }
+        .header-basic {
+            color: lightblue;
+            font-size: 40px;
+        }
+        .price {
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .s-plan {
+            border: 10px solid white;
+            text-align: center;
+            list-style-type: none;
+            justify-content: center;
+
+        }
+        .header-standerd {
+            color: lightblue;
+            font-size: 40px;
+        }
+        .s-price{
+            font-weight: bold;
+            font-size: 40px;
+
+
+    
+        }
+        .p-plan{
+            position: relative;
+            display: block;
+            list-style: none;
+            
+        
+        }
+        .signup {
+            color : black;
+            border:none;
+            text-decoration: none;
+            background-color: white
+        }
+        
+
+
+    </style>
 </head>
-<body style="border:20px solid grey; border: radius 10px; border-top: 3px; border-left: 3px; border-right: 2px; border-bottom:2px;">
+<body >
     <div class="container-fluid">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <!--basic plan-->
-            <h1>choose your plan</h1>
-            <h2>Basic</h2>
-            <p>$9.99</p>
-            <ul>
-                <li style="list-style: none;">5 projects</li>
-                <li  style="list-style: none;">5GB storage</li>
-                <li style="list-style: none;">Up to a 100 users</li>
-                <li style="list-style: none;">10GB bandwith</li>
-                <li style="list-style: none;">Security suite</li>
-                <li style="list-style: none ;"><button type="submit" class="btn btn-info">Sign up</button></li>
-            </ul>
+              
            
-            <!--standerd plan-->
-            <ul>
-                <li style="list-style: none;"><h1>Standerd</h1></li>
-                <li style="list-style:none ;"><p >$20.99</p></li>
-                <li style="list-style: none ;">15 projects</li>
-                <li style="list-style:none">30GB storage</li>
-                <li style="list-style: none ;">15GB bandwith</li>
-                <li style="list-style: none ;">100 users</li>
-                <li style="list-style:none">security suite</li>
-
-                <li style="list-style:none ;"><button type="submit" class="btn btn-info">Sign up</button></li>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+           <form>
+            <h1>Our plans </h1>
             
-
-            <ul>
-                <li style="list-style:none;"><h2>Premunim</h2></li>
-                <li style="list-style:none ;"><p>$100.99</p></li>
-                <li style="list-style: none ;">300GB storgage</li>
-                <li style="list-style:none ;">150GB bandwith</li>
-                <li style="list-style:none ;">250 users</li>
-                <li style="list-style:none">security suite</li>
-                <li style="list-style:none ;"><button type="submit" class="btn btn-info">Sign up</button></li>
-
+            <ul class="b-plan float-start">
+            <li class="header-basic">Basic<h2></h2></li>
+                <li><h2 class="price">$9.99</h2></li>
+                <li >5 projects</li>
+                <li c>5GB storage</li>
+                <li >Up to 100 users</li>
+                <li >10GB </li>
+                <li >Security Suite</li>
+                <li><button type="submit" class="signup btn-info">Signup</button></li>
             </ul>
             
-
-      
-
-        </div>
-
-    </div>
-    
-    
-</body>
-</html>
